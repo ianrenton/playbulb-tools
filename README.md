@@ -7,4 +7,4 @@ A bunch of scripts to do interesting things with Playbulb LED lights.
 
 A script that checks an IMAP mailbox at a defined interval, and will set the playbulb colour to red if there are no unread messages, or green (with a brief flash) when you have unread mail. Inspired by similar "ambient connected" devices like [Nabaztag](https://en.wikipedia.org/wiki/Nabaztag).
 
-<center><iframe src="//player.vimeo.com/video/119624218" width="600" height="338" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></center>
+[Watch it in action here.](https://vimeo.com/119624218)
