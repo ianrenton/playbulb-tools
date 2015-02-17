@@ -4,13 +4,6 @@
 # https://github.com/ianrenton/playbulb-tools
 # Watch it in action: https://vimeo.com/119624218
 
-# Inspired by https://pdominique.wordpress.com/2015/01/02/hacking-playbulb-candles/
-# Requires a computer with a Bluetooth 4.0 Low Energy compatible device
-# and the hcitool/gattool utilities installed. (Install the bluez package.)
-# Info on undocumented gattool non-interactive mode from:
-# http://www.humbug.in/2014/using-gatttool-manualnon-interactive-mode-read-ble-devices/
-# Tested on Linux, YMMV on Mac/Win.
-
 import getpass, imaplib, os, time
 
 #### Config ####
