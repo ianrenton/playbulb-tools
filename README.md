@@ -1,9 +1,9 @@
 # playbulb-tools
 A bunch of scripts to do interesting things with Playbulb LED lights.
 
-[Playbulbs](http://www.playbulb.com/en/index.html) are colour LED lights sold by a company called Mipow. They come with an iOS and Android app that can set their colour and various patterns using a Bluetooth 4.0 LE connection. There's no security on them whatsoever, so any nearby device can connect and change their colour. The protocol is [somewhat understood](https://pdominique.wordpress.com/2015/01/02/hacking-playbulb-candles/), so they can also be controlled programatically - for example, by the scripts here.
+[Playbulbs](http://www.playbulb.com/) are colour LED lights sold by a company called Mipow. They come with an iOS and Android app that can set their colour and various patterns using a Bluetooth 4.0 LE connection. There's no security on them whatsoever, so any nearby device can connect and change their colour. The protocol is [somewhat understood](https://pdominique.wordpress.com/2015/01/02/hacking-playbulb-candles/), so they can also be controlled programatically - for example, by the scripts here.
 
-These scripts were inspired by protocol information found at [https://pdominique.wordpress.com/2015/01/02/hacking-playbulb-candles/](https://pdominique.wordpress.com/2015/01/02/hacking-playbulb-candles/) and [https://github.com/Phhere/Playbulb/blob/master/Protocol.md](https://github.com/Phhere/Playbulb/blob/master/Protocol.md).
+These scripts were inspired by protocol information found at [https://pdominique.wordpress.com/2015/01/02/hacking-playbulb-candles/](https://pdominique.wordpress.com/2015/01/02/hacking-playbulb-candles/) and [https://github.com/Phhere/Playbulb/](https://github.com/Phhere/Playbulb/).
 
 They require a computer with a Bluetooth 4.0 Low Energy compatible device and the `hcitool`/`gattool` utilities installed. (Install the `bluez` package.) It also seems that only certain versions of gattool work properly ( see issue #1 ) &mdash; it's confirmed working in 4.101 but not in 5.28.
 
