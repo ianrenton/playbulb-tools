@@ -11,6 +11,10 @@ I found information on the 'undocumented' gattool non-interactive mode (which do
 
 These scripts are tested on Ubuntu Linux (armhf) 14.04, but YMMV on Mac, Windows, other Linuxes etc.
 
+**Note: amahlaka has written a Python library for controlling Playbulb devices, available at https://github.com/amahlaka/python-mipow. If you are having trouble getting gattool to work, or would just prefer a pure python solution rather than making system calls, I recommend checking it out!**
+
+Two scripts are currently in my repository, as follows:
+
 ## mailcheck
 
 A script that checks an IMAP mailbox at a defined interval, and will set the playbulb colour to red if there are no unread messages, or green (with a brief flash) when you have unread mail. Inspired by similar "ambient connected" devices like [Nabaztag](https://en.wikipedia.org/wiki/Nabaztag).
